@@ -1,0 +1,66 @@
+.userlist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userlist .userlist_item:first-child {
+  margin-top: 7vh;
+}
+.userlist .userlist_item:last-child {
+  margin-bottom: 9vh;
+}
+.userlist .userlist_item {
+  margin-top: 10px;
+  width: 94%;
+  height: 25vh;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.userlist .userlist_item .userlist_item_top {
+  height: 8vh;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userlist .userlist_item .userlist_item_top img {
+  height: 6vh;
+  width: 6vh;
+}
+.userlist .userlist_item .userlist_item_bottom {
+  height: 15vh;
+  display: flex;
+}
+.userlist .userlist_item .userlist_item_bottom .userlist_item_bottom_left {
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.userlist .userlist_item .userlist_item_bottom .userlist_item_bottom_left span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.userlist .userlist_item .userlist_item_bottom .userlist_item_bottom_right {
+  flex: 1;
+  height: 100%;
+  padding-left: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.userlist .userlist_item .userlist_item_bottom .userlist_item_bottom_right span {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-top: 2px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}

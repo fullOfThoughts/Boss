@@ -1,0 +1,51 @@
+.UserCenter {
+  background-color: rgba(0, 0, 0, 0.03);
+  width: 100vw;
+}
+.UserCenter h3 {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.UserCenter .UserCenter_top {
+  background-color: #fff;
+  margin-top: 6vh;
+  height: 25vh;
+  width: 100vw;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.UserCenter .UserCenter_top img {
+  width: 11vh;
+  height: 11vh;
+}
+.UserCenter .UserCenter_top span {
+  margin-top: -47px;
+}
+.UserCenter .UserCenter_con {
+  width: 100vw;
+  padding: 0 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.UserCenter .UserCenter_con span {
+  display: -webkit-box;
+  overflow: hidden;
+  height: 4.5vh;
+  line-height: 4.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.UserCenter .UserCenter_bottom {
+  margin-top: 20px;
+  width: 100vw;
+  height: 6vh;
+  background-color: #ee372a;
+  border-radius: 7px;
+  line-height: 6vh;
+  text-align: center;
+}

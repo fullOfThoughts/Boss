@@ -1,0 +1,32 @@
+.message {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 50%;
+  width: 80vw;
+  height: 8vh;
+  transform: translate(-50%, -100%);
+  z-index: 10000;
+  animation: hint 1.5s;
+}
+.message .message_left {
+  text-align: right;
+  line-height: 6vh;
+  width: 24vw;
+}
+.message .message_right {
+  width: 11vw;
+  height: 6vh;
+}
+@keyframes hint {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  30% {
+    transform: translate(-50%, 100%);
+  }
+  100% {
+    transform: translate(-50%, 100%);
+  }
+}
